@@ -1,0 +1,121 @@
+/* Estilos generales para el body: se define la fuente y se eliminan los márgenes y el padding por defecto. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal: centra el contenido y le da un ancho máximo. */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header: fondo oscuro, texto blanco y mucho padding para destacar la bienvenida. */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Título principal del header: tamaño grande para llamar la atención. */
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Botón principal: estilos para el botón de acción, con color azul y bordes redondeados. */
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para el botón: cambia el color al pasar el mouse. */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Secciones: padding para separar visualmente cada bloque de contenido. */
+section {
+    padding: 50px 0;
+}
+
+/* Títulos de sección centrados. */
+h2 {
+    text-align: center;
+}
+
+/* Características: centra el texto y separa cada característica. */
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Título de cada característica: tamaño más grande para destacar. */
+.feature h3 {
+    font-size: 1.5em;
+}
+
+/* Testimonios: fondo claro, bordes redondeados y padding para resaltar los comentarios. */
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* Texto de los testimonios en cursiva. */
+.testimonial p {
+    font-style: italic;
+}
+
+/* Autor del testimonio en negrita. */
+.testimonial cite {
+    font-weight: bold;
+}
+
+/* Formulario: ancho máximo y centrado. */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Inputs y textarea del formulario: ocupan todo el ancho, con padding y bordes suaves. */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botón de enviar del formulario: azul, blanco y con efecto hover. */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer: fondo oscuro, texto blanco y centrado. */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
